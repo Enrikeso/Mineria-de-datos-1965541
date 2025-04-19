@@ -2,6 +2,8 @@ import pandas as pd
 
 df = pd.read_csv("sugar_consumption_dataset.csv")
 
+pd.set_option('display.max_columns', None)
+
 print(df.head())
 
 print(df.info())
