@@ -32,4 +32,10 @@ print(classification_report(y_test, y_pred))
 print("Matriz de confusión:\n")
 print(confusion_matrix(y_test, y_pred))
 
-
+'''
+Este modelo usa K-Nearest Neighbors para clasificar los datos por continente.
+La precisión fue de 26%, lo cual es baja, pero se debe a que algunos continentes
+tienen datos muy parecidos. Asia fue el que más se predijo correctamente.
+Se podrían usar otros modelos o más variables para mejorar los resultados.
+Aun así, sirve para ver cómo se comportan los datos y practicar clasificación.
+'''
