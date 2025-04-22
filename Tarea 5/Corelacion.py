@@ -26,3 +26,9 @@ plt.ylabel("Predicciones")
 plt.title("Modelo Lineal: Valores Reales vs Predichos")
 plt.grid(True)
 plt.show()
+
+'''El R² obtenido fue bajo, lo cual indica que el modelo no logra explicar 
+bien la variabilidad de los datos. Esto tiene sentido, ya que en la Tarea 4 
+se comprobó que la obesidad no varía significativamente entre continentes 
+(p > 0.05), lo que sugiere que estas variables no tienen un poder predictivo 
+fuerte en este caso.'''
